@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+body {
+    font-family: 'EB Garamond', serif;
+    background: url('be.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+    background-color: rgba(26, 26, 26, 0.9); /* Semi-transparent background */
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    border: 2px solid #444;
+    backdrop-filter: blur(5px); /* Adding a blur effect to the background */
+}
+
+h1, h2 {
+    text-align: center;
+    color: #d4af37;
+    text-shadow: 1px 1px 2px #000;
+    font-family: 'EB Garamond', serif;
+}
+
+label {
+    display: block;
+    margin: 15px 0;
+    color: #e0e0e0;
+    font-family: 'EB Garamond', serif;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #d4af37;
+    color: #1a1a1a;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s, box-shadow 0.3s;
+    font-family: 'EB Garamond', serif;
+}
+
+button:hover {
+    background-color: #c7a435;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+#recommendations {
+    margin-top: 20px;
+}
+
+#booksList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#booksList li {
+    background-color: #333;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #444;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #e0e0e0;
+    text-shadow: 1px 1px 2px #000;
+    display: flex;
+    align-items: center;
+    font-family: 'EB Garamond', serif;
+}
+
+#booksList img {
+    max-width: 50px;
+    margin-right: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}

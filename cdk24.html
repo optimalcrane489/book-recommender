@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Literary Recommendations</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap">
+</head>
+<body>
+    <div class="container">
+        <h1>Literary Recommendations</h1>
+        <form id="interestsForm">
+            <h2>Select Your Interests</h2>
+            <label>
+                <input type="checkbox" name="interests" value="fiction"> Fiction
+            </label>
+            <label>
+                <input type="checkbox" name="interests" value="non-fiction"> Non-fiction
+            </label>
+            <label>
+                <input type="checkbox" name="interests" value="mystery"> Mystery
+            </label>
+            <label>
+                <input type="checkbox" name="interests" value="science-fiction"> Science Fiction
+            </label>
+            <label>
+                <input type="checkbox" name="interests" value="fantasy"> Fantasy
+            </label>
+            <label>
+                <input type="checkbox" name="interests" value="romance"> Romance
+            </label>
+            <button type="button" onclick="getRecommendations()">Reveal Tomes</button>
+        </form>
+        <div id="recommendations">
+            <h2>Your Curated Tomes</h2>
+            <ul id="booksList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
